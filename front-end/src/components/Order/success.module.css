@@ -1,0 +1,22 @@
+.container {
+    max-width : 700px;
+    margin : auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    padding : 8rem;
+}
+
+.container h2 {
+    font-size : 24px;
+}
+
+.conatiner p {
+    color :rgb(19, 19, 42);
+    font-size: 18px;
+}
+
+.container img {
+    width : 16%;
+}

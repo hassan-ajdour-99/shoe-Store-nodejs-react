@@ -1,0 +1,41 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.header {
+  font-size: 24px;
+}
+
+.subheader {
+  color: rgb(2, 65, 124);
+}
+
+.checkoutItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: #111;
+}
+
+.item {
+  color: rgb(2, 65, 124);
+  font-size: 24px;
+}
+
+.item1 {
+}

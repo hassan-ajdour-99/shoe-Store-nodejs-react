@@ -1,0 +1,12 @@
+.rating {
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .rating {
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+    display: flex;
+  }
+}

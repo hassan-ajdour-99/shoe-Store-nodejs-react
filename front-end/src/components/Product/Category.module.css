@@ -1,0 +1,113 @@
+.container {
+  max-width: 78rem;
+  margin: auto;
+  padding: 1rem;
+  margin-top: -1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+  place-items: center;
+  overflow: hidden;
+}
+
+.container h2 span {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-size: 22px;
+  color: rgb(105, 9, 168);
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(250, 2, 118), rgb(250, 8, 68));
+  padding: 1.6em;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 3.5rem;
+  color: rgb(8, 54, 128);
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 0.2rem;
+  color: #fff;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+  /* font-weight: bold; */
+  background-color: #1f0589;
+  padding: 10px;
+  border-radius: 11px;
+  width: 60%;
+  margin-left: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.price:hover {
+  background-color: rgb(21, 22, 85);
+}
+
+.cards {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.cards {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.card {
+  white-space: nowrap;
+  will-change: transform;
+  animation: cards 19s linear infinite;
+  width: 240%;
+}
+
+.card:hover {
+  background-color: #1f0589;
+  /* animation-play-state: paused; */
+}
+
+@keyframes cards {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.rating {
+  color: #ff2600;
+}
+
+.image {
+  width: 160px;
+  height: 160px;
+}
+
+@media (max-width: 500px) {
+  .cards {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+}

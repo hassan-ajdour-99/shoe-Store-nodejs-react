@@ -1,0 +1,21 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rowdies", cursive;
+  background-color: rgb(245, 243, 243);
+  color: #111;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+  background-color: rgb(245, 243, 243);
+  color: #111;
+}

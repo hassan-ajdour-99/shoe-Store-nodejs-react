@@ -1,0 +1,245 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #160a20;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-size: 16px;
+}
+
+.header {
+  color: #3f086f;
+  margin-left: 2rem;
+  font-size: 20px;
+}
+
+.header3 {
+  text-align: center;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.2rem;
+  position: relative;
+  color: rgb(255, 0, 55);
+  border-radius: 11px;
+  padding: 1rem;
+  background-color: #ffff;
+  border: 1px solid #cccc;
+  margin-bottom: 2rem;
+}
+
+.header2 {
+  text-align: center;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.2rem;
+  position: relative;
+  color: rgb(67, 7, 134);
+  border-radius: 11px;
+  padding: 1rem;
+  background-color: #ffff;
+  border: 1px solid #cccc;
+  margin-bottom: 2rem;
+}
+
+.header1 {
+  border: 1px solid #cccc;
+  color: #ff0037;
+  margin-left: 1rem;
+  font-size: 18px;
+  padding: 30px;
+  background-color: #fff;
+  width: 60%;
+  border-radius: 8px;
+}
+
+.card {
+  display: flex;
+  grid-template-columns: 4fr 2fr;
+  gap: 6rem;
+}
+
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.2rem;
+  position: relative;
+  background-color: #ffffff;
+  color: white;
+  border-radius: 11px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cccc;
+}
+
+.trash .span {
+  color: #3f086f;
+}
+
+.selector {
+  font-size: 17px;
+}
+
+.img {
+  width: 70%;
+  height: 100px;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #ffff;
+  border: 1px solid #cccc;
+  color: #111;
+  width: 30%;
+  height: 300px;
+  border-radius: 14px;
+  padding: 3rem;
+}
+
+.price p {
+  color: #111;
+  font-size: 12px;
+}
+
+.name p {
+  font-size: 16px;
+}
+
+.btn1 {
+  border: none;
+  text-align: center;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.2rem;
+  position: relative;
+  background-color: rgb(243, 4, 52);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.btn1:hover {
+  background-color: #ff0318;
+  transform: scale(1.1);
+}
+
+.payment h3 {
+  font-size: 17px;
+}
+
+@media (max-width: 500px) {
+  .cartItems {
+    gap: 1rem;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .name p {
+    font-size: 12px;
+  }
+
+  .price p {
+    color: #111;
+    font-size: 13px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.8rem;
+    max-width: 45rem;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 0.2rem;
+    position: relative;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 11px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+
+  .img {
+    width: 70%;
+    height: 70px;
+  }
+
+  .header1 {
+    text-align: center;
+    max-width: 40rem;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 26px;
+    margin-bottom: 3rem;
+  }
+  .header {
+    text-align: center;
+    max-width: 40rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 0.2rem;
+    padding: 1rem;
+    font-size: 26px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .payment {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #ffff;
+    color: #111;
+    width: 70%;
+    height: 300px;
+    border-radius: 14px;
+    padding: 3rem;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  }
+
+  .payment h3 {
+    font-size: 17px;
+  }
+}

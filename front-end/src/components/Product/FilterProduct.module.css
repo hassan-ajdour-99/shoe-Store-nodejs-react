@@ -1,0 +1,203 @@
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.header {
+  margin-top: 1rem;
+}
+
+.title {
+  margin-top : 9rem;
+}
+
+.title:hover {
+  transform: scale(1.1);
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: rgb(47, 16, 94);
+}
+
+.price {
+  color: rgb(27, 3, 58);
+  font-size: 23px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(255, 0, 60);
+  color: #ffff;
+  padding: 10px;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: rgb(255, 60, 0);
+}
+
+.cart {
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap : 2rem;
+  margin-bottom : 5.5rem;
+}
+
+.card {
+  background: rgb(3, 111, 147);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding : 5rem;
+}
+
+.card img {
+  width: 180%;
+  height: 220px;
+  margin-left : -3rem;
+  margin-top: -2rem;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.rating {
+  padding: 0.6rem;
+}
+
+.container ul li {
+  color: rgb(252, 0, 76);
+}
+
+.container ul li button::before {
+  font-size: 15px !important;
+  color: #f5005e;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .discount {
+    display: block;
+    background-color: #f5005e;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.3rem;
+    margin-right: 4rem;
+    border-radius: 9px;
+    margin-top: -0.5rem;
+    font-size: 12px;
+    margin: 0.5rem;
+  }
+
+  .discount1 {
+    background: rgb(5, 165, 19);
+    width: 80%;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.3rem;
+    margin-right: 4rem;
+    border-radius: 9px;
+    margin-top: -2rem;
+    font-size: 12px;
+    margin: 0.5rem;
+  }
+
+  .container {
+    max-width: 450px;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+
+  .container h2 {
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    color: rgb(82, 13, 186);
+  }
+
+  .container h3 {
+    color: rgb(82, 13, 186);
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 16px;
+    /* color: rgb(94, 39, 245); */
+    color: rgb(70, 16, 165);
+  }
+
+  .price {
+    color: rgb(70, 16, 165);
+    font-size: 16px;
+  }
+
+  .btn {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 0, 60);
+    color: #ffff;
+    padding: 6px;
+    width: 100%;
+    border-radius: 9px;
+  }
+
+  .btn:hover {
+    background-color: rgb(255, 60, 0);
+  }
+
+  .cart {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    display: flex;
+  }
+
+  .cart .card {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 200%;
+  }
+
+  .card img {
+    width: 100%;
+    height: 80px;
+  }
+
+  .card img:hover {
+    transform: scale(1.1);
+  }
+
+  .rating {
+    padding: 0.6rem;
+  }
+
+  /* .container ul li {
+    display: none;
+  }
+
+  .container ul li button::before {
+    display: none;
+  } */
+}

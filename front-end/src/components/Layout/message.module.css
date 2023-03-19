@@ -1,0 +1,12 @@
+.conatiner {
+  max-width: 600px;
+  margin: auto;
+}
+
+.message {
+  align-items: center;
+  background-color: rgb(253, 0, 76);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

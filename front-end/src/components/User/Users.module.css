@@ -1,0 +1,73 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.table th {
+  background-color: #b90239;
+  color: #fff;
+  padding: 20px;
+}
+
+.table td {
+  background: #fff;
+  color: #111;
+  padding: 10px;
+}
+
+.button1 {
+  color: #fff;
+  background: rgb(3, 186, 3);
+  border: none;
+  padding: 6px;
+  width: 100%;
+}
+
+.button2 {
+  color: #fff;
+  background: rgb(194, 4, 4);
+  border: none;
+  padding: 6px;
+  width: 100%;
+}
+
+.users {
+  margin-top: 2rem;
+  color: rgb(250, 0, 75);
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  .table th {
+    background-color: #f80e55;
+    color: #fff;
+    padding: 6px;
+    font-size: 8px;
+  }
+
+  .table td {
+    background: #fff;
+    color: rgb(11, 90, 238);
+    padding: 6px;
+    font-size: 8px;
+  }
+
+  .orderButton {
+    background: rgb(2, 185, 27);
+    border: none;
+    color: #fff;
+    padding: 5px;
+  }
+}
+
+.button2 {
+  color: #fff;
+  background: rgb(194, 4, 4);
+  border: none;
+  padding: 4px;
+  width: 100%;
+}

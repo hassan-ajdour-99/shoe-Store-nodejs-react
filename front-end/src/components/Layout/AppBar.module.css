@@ -1,0 +1,84 @@
+.header {
+  position: sticky;
+  left: 0;
+  right: 0;
+  height: 100px;
+  cursor: pointer;
+  /* background-color: rgb(245, 243, 243); */
+  background-color: rgb(252, 255, 253);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.AppBar {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.contact {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo img {
+  width: 140%;
+  height: 100px;
+}
+
+.items h3 {
+  font-size: 14px;
+  color: #00388d;
+}
+
+.fontAwesome {
+  display: flex;
+  gap: 1rem;
+}
+
+.fontAwesome span i {
+  color: #de1743;
+}
+
+.dropDownMenu {
+  width: 100%;
+}
+
+.navbar {
+  display: block;
+}
+
+.navbar .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item li {
+  text-decoration: none;
+  list-style: none;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .contact {
+    display: none;
+  }
+  .logo img {
+    width: 120%;
+    height: 105px;
+    margin-right: -2rem;
+  }
+}

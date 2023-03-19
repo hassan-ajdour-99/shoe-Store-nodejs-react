@@ -1,0 +1,114 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.adminProduct {
+  display: flex;
+  flex-direction: column;
+}
+
+.newProductButton {
+  margin-top: 2rem;
+  color: #fff;
+  background-color: #ec1644;
+  border: none;
+  width: 30%;
+  height: 40px;
+}
+
+.newProductButton:hover {
+  background-color: #b4052b;
+}
+
+.table th {
+  background-color: #d60d39;
+  color: #fff;
+  padding: 20px;
+}
+
+.table td {
+  background: #fff;
+  color: #111;
+  padding: 10px;
+}
+
+.button1 {
+  color: #fff;
+  background: rgb(0, 179, 0);
+  border: none;
+  padding: 6px;
+  width: 100%;
+}
+
+.button2 {
+  color: #fff;
+  background-color: #cd0000;
+  border: none;
+  padding: 6px;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0.5rem;
+  }
+  .table th {
+    background-color: #f80e55;
+    color: #fff;
+    padding: 6px;
+    font-size: 7px;
+  }
+
+  .table td {
+    background: #fff;
+    color: rgb(11, 90, 238);
+    padding: 5px;
+    font-size: 7px;
+  }
+
+  .orderButton {
+    background: rgb(2, 185, 27);
+    border: none;
+    color: #fff;
+    padding: 5px;
+  }
+
+  .button1 {
+    color: #fff;
+    background: rgb(1, 172, 1);
+    border: none;
+    padding: 3px;
+    width: 100%;
+    font-size: 9px;
+  }
+
+  .button2 {
+    color: #fff;
+    background: rgb(216, 3, 20);
+    border: none;
+    padding: 3px;
+    width: 100%;
+    font-size: 9px;
+  }
+
+  .newProductButton {
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #ec1644;
+    border: none;
+    width: 50%;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .newProductButton:hover {
+    background-color: #b4052b;
+  }
+}

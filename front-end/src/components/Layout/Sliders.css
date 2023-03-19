@@ -1,0 +1,46 @@
+.container {
+  max-width: 1400px;
+  height: 450px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #ffff;
+  overflow: hidden;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 1600px;
+    height: 324px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #ffff;
+    overflow: hidden;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 100%;
+    height: 160px;
+  }
+}
